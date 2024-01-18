@@ -1,6 +1,8 @@
 public class Cell {
-	byte nearbyMines; // maximum 8
-	boolean isMine, isFlagged, isVisible;
-	
+	boolean isVisible, isBomb, isFlagged;
+	byte nearbyBombs;
 
+	public Cell () {
+		
+	}
 }
