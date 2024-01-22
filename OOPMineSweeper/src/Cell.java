@@ -1,8 +1,13 @@
 public class Cell {
-	boolean isVisible, isBomb, isFlagged;
-	byte nearbyBombs;
+	boolean isVisible, isMine, isFlagged;
+	byte nearbyMines;
 
-	public Cell () {
+	public Cell() {
 		
+	}
+	
+	public String toString() {
+		return ".";
+		// TODO implement actual render
 	}
 }

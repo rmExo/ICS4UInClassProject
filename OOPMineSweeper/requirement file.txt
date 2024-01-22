@@ -3,12 +3,12 @@ Minesweeper
 Requirements
 1. Game Generation
 2. Flagged tiles
-3. Select tile
+- 3. Select tile
 4. nearby mine count
 5. reveal empty tiles together
 6. game end (happy / sad path)
 7. restart game
-8. difficulty settings
-9. timer
+- 8. difficulty settings
+- 9. timer
 10. flag count
-11. Grid of tilesq
+- 11. Grid of Cells
