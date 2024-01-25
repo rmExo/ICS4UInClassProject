@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class MineSweeper {
 	Grid playingGrid;
+	//MakeBomb bombsMade;
 	long startTime;
 
 	public MineSweeper(String difficulty) {
@@ -37,6 +38,7 @@ public class MineSweeper {
 				break;
 		}
 		playingGrid = new Grid(width, height, numMines);
+		//bombsMade = new MakeBomb(numMines);
 	}
 
 	public static void main(String[] args) {
